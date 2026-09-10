@@ -1,0 +1,21 @@
+.card {
+    padding: 28px;
+    border-radius: 12px;
+    background: #172033;
+    color: #fff;
+    margin-top: 24px;
+}
+
+.card h2 {
+    margin: 0 0 24px;
+}
+
+.card p {
+    margin: 8px 0;
+}
+
+.card p:first-of-type {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1;
+}

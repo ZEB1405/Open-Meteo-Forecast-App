@@ -1,0 +1,87 @@
+.results {
+    margin-top: 24px;
+    padding: 20px;
+    border: 1px solid #dbe4ef;
+    border-radius: 12px;
+    background: #fff;
+}
+
+.heading {
+    margin: 0 0 12px;
+    color: #172033;
+    font-size: 1.1rem;
+}
+
+.toggle {
+    display: flex;
+    width: 100%;
+    min-height: 24px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 0;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    color: #172033;
+    background: transparent;
+    text-align: left;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 700;
+}
+
+.results .toggle:hover,
+.results .toggle:active {
+    color: #172033;
+    background: transparent;
+    border-color: transparent;
+}
+
+.toggleOpen {
+    padding-bottom: 16px;
+    border-bottom-color: #e2e8f0;
+    border-radius: 0;
+}
+
+.toggle:focus-visible {
+    outline: 2px solid #94a3b8;
+    outline-offset: 3px;
+}
+
+.list {
+    display: grid;
+    gap: 8px;
+    padding: 0;
+    margin: 16px 0 0;
+    list-style: none;
+}
+
+.resultButton {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #dbe4ef;
+    border-radius: 8px;
+    color: #172033;
+    background: #f8fafc;
+    text-align: left;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 500;
+}
+
+.resultButton:hover {
+    border-color: #2563eb;
+    background: #eff6ff;
+}
+
+.resultButton:focus-visible {
+    outline: 3px solid #93c5fd;
+    outline-offset: 2px;
+}
+
+.selected {
+    margin: 16px 0 0;
+    padding-top: 16px;
+    border-top: 1px solid #e2e8f0;
+    color: #64748b;
+    font-size: 0.9rem;
+}
